@@ -1,0 +1,11 @@
+{
+  "app": {
+    "name": "dex-tool",
+    "version": "0.0.1",
+    "description": "The gateway to DEFI, real-time charts, history and all token info from blockchain."
+  },
+  "database": {
+    "url": "mongodb://localhost:27018/",
+    "name": "dex-tool"
+  }
+}

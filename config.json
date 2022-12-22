@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "dex-tool",
+    "version": "0.0.1",
+    "description": "The gateway to DEFI, real-time charts, history and all token info from blockchain."
+  },
+  "database": {
+    "url": "mongodb://localhost:27018/",
+    "name": "dex-tool"
+  },
+  "redis": {
+    "address": "localhost:6380",
+    "username": "",
+    "password": "",
+    "db": 0
+  },
+  "stable_coin": [
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "0x55d398326f99059fF775485246999027B3197955"
+  ],
+  "crawl": {
+    "max_block_per_process": 10,
+    "safe_block": 10
+  }
+}
